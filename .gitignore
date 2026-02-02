@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebook auto files
+.ipynb_checkpoints/
+
+# Environment / secret files
+.env
+
+# Ignore all CSV files
+*.csv
+
+# But allow these CSV files
+!data/raw/raw_sample.csv
+!data/processed/clean.csv
