@@ -8,9 +8,16 @@ __pycache__/
 # Environment / secret files
 .env
 
-# Ignore all CSV files
-*.csv
+# Allow data folder
+!data/
 
-# But allow these CSV files
-!data/raw/raw_sample.csv
-!data/processed/clean.csv
+# Ignore raw data
+data/raw/
+
+# Allow processed data
+!data/processed/
+!data/processed/**
+
+# Colab / temp
+.config/
+sample_data/
